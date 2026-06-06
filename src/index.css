@@ -5,9 +5,8 @@ html {
 }
 
 body {
-  margin: 0;
-  background: #050816;
-  color: white;
+  background: #f8fafc;
+  color: #1e293b;
   overflow-x: hidden;
   font-family: Inter, sans-serif;
 }

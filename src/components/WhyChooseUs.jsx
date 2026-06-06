@@ -30,15 +30,15 @@ const features = [
 
 const WhyChooseUs = () => {
     return (
-        <section className="py-24 bg-black">
+        <section className="py-24 bg-white">
             <div className="max-w-7xl mx-auto px-6">
 
-                <h2 className="text-5xl font-bold text-center mb-4">
+                <h2 className="text-5xl font-bold text-center mb-4 text-slate-900">
                     Why Choose
-                    <span className="text-yellow-500"> BHKMate</span>
+                    <span className="text-yellow-600"> BHKMate</span>
                 </h2>
 
-                <p className="text-center text-gray-400 mb-16">
+                <p className="text-center text-slate-500 mb-16">
                     Your trusted real estate partner in Pune
                 </p>
 
@@ -47,17 +47,17 @@ const WhyChooseUs = () => {
                     {features.map((item, index) => (
                         <div
                             key={index}
-                            className="bg-[#101b33] p-8 rounded-2xl text-center hover:-translate-y-2 transition-all duration-300"
+                            className="bg-slate-50 p-8 rounded-2xl text-center border border-slate-100/80 hover:-translate-y-2 hover:shadow-xl transition-all duration-300 text-slate-800"
                         >
-                            <div className="text-yellow-500 flex justify-center mb-4">
+                            <div className="text-yellow-600 flex justify-center mb-4">
                                 {item.icon}
                             </div>
 
-                            <h3 className="text-xl font-bold mb-3">
+                            <h3 className="text-xl font-bold mb-3 text-slate-900">
                                 {item.title}
                             </h3>
 
-                            <p className="text-gray-400">
+                            <p className="text-slate-500">
                                 {item.desc}
                             </p>
                         </div>
